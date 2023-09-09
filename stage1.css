@@ -1,0 +1,48 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{
+    max-width: 450px;
+    width: 100%;
+    border: 1px solid gray;
+    padding:15px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slackUserName{
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+}
+
+#slackDisplayImage{
+    display: grid;
+    place-items: center;
+    max-width: 250px;
+    width:auto;
+    height: 280px;
+    border-radius:10px;
+    margin-bottom: 20px;  
+}
+
+#currentDayOfTheWeek, #currentUTCTime,#githubURL, #myTrack{
+ font-size: 20px;
+ color: gray;
+ background-color: white;
+ padding: 10px;
+ border: 1px solid gray;
+ border-radius: 5px;
+ display: block;
+ margin-bottom: 10px;
+ text-align: center;
+}
+#githubURL{
+    text-decoration: none;
+    cursor: pointer;
+}
+#githubURL:hover, #githubURL:focus{
+    color:#fff;
+    background-color: gray;
+}
