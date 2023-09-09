@@ -11,13 +11,13 @@ body{
     align-items: center;
 }
 
-#slackUserName{
+[data-testid="slackUserName"]{
     font-size: 25px;
     font-weight: bold;
     color: gray;
 }
 
-#slackDisplayImage{
+[data-testid="slackDisplayImage"]{
     display: grid;
     place-items: center;
     max-width: 250px;
@@ -27,7 +27,7 @@ body{
     margin-bottom: 20px;  
 }
 
-#currentDayOfTheWeek, #currentUTCTime,#githubURL, #myTrack{
+[data-testid="currentDayOfTheWeek"], [data-testid="currentUTCTime"],[data-testid="githubURL"], [data-testid="myTrack"]{
  font-size: 20px;
  color: gray;
  background-color: white;
@@ -38,11 +38,11 @@ body{
  margin-bottom: 10px;
  text-align: center;
 }
-#githubURL{
+[data-testid="githubURL"]{
     text-decoration: none;
     cursor: pointer;
 }
-#githubURL:hover, #githubURL:focus{
+[data-testid="githubURL"]:hover, [data-testid="githubURL"]:focus{
     color:#fff;
     background-color: gray;
 }
