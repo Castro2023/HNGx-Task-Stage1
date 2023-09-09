@@ -14,7 +14,7 @@ body{
 [data-testid="slackUserName"]{
     font-size: 25px;
     font-weight: bold;
-    color: gray;
+    color: #000;
 }
 
 [data-testid="slackDisplayImage"]{
@@ -29,10 +29,10 @@ body{
 
 [data-testid="currentDayOfTheWeek"], [data-testid="currentUTCTime"],[data-testid="githubURL"], [data-testid="myTrack"]{
  font-size: 20px;
- color: gray;
+ color: #000;
  background-color: white;
  padding: 10px;
- border: 1px solid gray;
+ border: 1px solid #000;
  border-radius: 5px;
  display: block;
  margin-bottom: 10px;

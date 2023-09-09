@@ -4,12 +4,13 @@ currentDayOfWeek=()=> {
     const now = new Date();
     const dayOfWeek = daysOfWeek[now.getDay()];
 
-    dayOfWeekElement.textContent = `Current Day of the Week: ${dayOfWeek}`;
+    dayOfWeekElement.textContent = ` ${dayOfWeek}`;
 };
 currentDayOfWeek();
 currentTimeMillis=()=> {
     const millisTimeElement = document.querySelector('[data-testid="currentUTCTime"]');
     const currentTimeMillis = new Date().getTime();
-    millisTimeElement.textContent = `Current UTC Time: ${currentTimeMillis}`;
+    millisTimeElement.textContent = ` ${currentTimeMillis}`;
 };
 currentTimeMillis();
+setInterval(currentTimeMillis, 100);
